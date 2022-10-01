@@ -1,0 +1,86 @@
+body{
+    padding: 5% 7% 0 7%; 
+}
+
+/*Encabezado*/
+.encabezado{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.titulo{
+    font-size: 37px;
+    font-family: 'Bodoni MT';
+}
+
+.titulo2{
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Trebuchet MS';
+}
+
+.text1{
+    font-family: 'Verdana';
+    padding: 0 40% 0 0 ;
+    font-size: 15px;
+}
+
+/*Imagenes y contenido*/
+.contenido{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px 0 50px 0;
+}
+
+.text2{
+    margin: 0;
+    transform:rotate(90deg) translate(58px, 70px);
+}
+
+.text21{
+    margin: 0;
+    transform:rotate(90deg) translate(48px, 80px);
+}
+
+.text22{
+    margin: 0;
+    transform:rotate(90deg) translate(35px, 94px);
+}
+
+.text23{
+    margin: 0;
+    transform:rotate(90deg) translate(43px, 85px);
+}
+
+.text24{
+    margin: 0;
+    transform:rotate(90deg) translate(38px, 90px);
+}
+
+.text25{
+    margin: 0;
+    transform:rotate(90deg) translate(35px, 90px);
+}
+
+
+.text2, .text21, .text22, .text23, .text24, .text25{
+    float: right;
+}
+
+.text3{
+    font-family: 'Verdana';
+}
+
+.down{
+    transform: translateY(25%);
+}
+
+footer{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: gray;
+    font-family: 'Century Gothic';
+    padding: 150px 0 0 0;
+}
